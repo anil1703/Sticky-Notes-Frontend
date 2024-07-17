@@ -1,0 +1,60 @@
+.home-one{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    background-color: aqua;
+    padding: 20px;
+   
+}
+
+.search-style{
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid gray;
+    outline: none;
+    padding-left: 8px;
+}
+
+.textarea-style{
+    border-radius: 5px;
+    border:1px solid gray;
+    padding: 8px;
+    outline: none;
+}
+
+.add-btn{
+    align-self: center;
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home{
+    display: flex;
+    height: 100vh;
+    gap: 10px;
+}
+
+.home-two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: auto;
+    height: 100vh;
+}
+
+.colorStyle{
+    cursor: pointer;
+}

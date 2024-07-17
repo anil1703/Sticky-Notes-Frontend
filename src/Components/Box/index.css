@@ -1,0 +1,35 @@
+.LiStyle{
+    background-color: #ff6347;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.time-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 350px;
+}
+.modal-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save-btn{
+    margin-top: 20px;
+    align-self: center;
+}

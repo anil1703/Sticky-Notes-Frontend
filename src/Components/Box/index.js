@@ -45,7 +45,7 @@ const Box = (props) => {
     }
 
     const deletingNotes = (id) => {
-        axios.delete(`http://localhost:3000/notes/${id}`)
+        axios.delete(`https://sticky-notes-backend-1.onrender.com/notes/${id}`)
             .then((response) => {
                 reRender();
             })

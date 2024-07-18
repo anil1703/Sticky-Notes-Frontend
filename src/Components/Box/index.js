@@ -33,7 +33,7 @@ const Box = (props) => {
             font_color: fontColorChange
         };
 
-        axios.put(`http://localhost:3000/updating_notes/${id}`, data)
+        axios.put(`https://sticky-notes-backend-1.onrender.com/updating_notes/${id}`, data)
             .then((response) => {
                 console.log(response);
                 closeModal();

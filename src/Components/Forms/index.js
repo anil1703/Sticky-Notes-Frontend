@@ -102,7 +102,7 @@ class Forms extends Component {
             }));
             console.log("data",data)
 
-            axios.post("http://localhost:3000/create_notes",data)
+            axios.post("https://sticky-notes-backend-1.onrender.com/create_notes",data)
             .then((res)=>{
                 console.log("byrr",res)
                 this.reRender();

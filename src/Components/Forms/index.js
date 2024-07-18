@@ -23,7 +23,7 @@ class Forms extends Component {
     };
 
     componentDidMount() {
-        axios.get("http://localhost:3000/notes")
+        axios.get("https://sticky-notes-backend-1.onrender.com/notes")
             .then((response) => {
                 const DataOfNotes = response.data;
                 if (DataOfNotes.length !== 0) {
@@ -57,7 +57,7 @@ class Forms extends Component {
     }
 
     reRender = () => {
-        axios.get("http://localhost:3000/notes")
+        axios.get("https://sticky-notes-backend-1.onrender.com/notes")
             .then((response) => {
                 const DataOfNotes = response.data;
                 if (DataOfNotes.length !== 0) {
